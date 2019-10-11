@@ -9,15 +9,18 @@ import ReactDOM from "react-dom";
 // import Membro from './componentes/Membro'
 // import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
 // import Pai from './componentes/Pai'
-import ComponenteClasse from './componentes/ComponenteClasse'
-
+// import ComponenteClasse from './componentes/ComponenteClasse'
+// import Contador from './componentes/Contador'
+import Hook from './componentes/Hook'
 
 
 
 const elemento = document.getElementById("root");
 ReactDOM.render(
   <div>
-    <ComponenteClasse  />
+    <Hook />
+    {/* <Contador numero={0} /> */}
+    {/* <ComponenteClasse  /> */}
     {/* <Pai /> */}
     {/* <ComponenteComFuncao /> */}
     {/* <Familia  sobrenome="Pereira">
